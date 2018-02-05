@@ -9,7 +9,7 @@ def turn_count(board)
 end
 
 def current_player(counter)
-  if counter == nil
+  if counter < 1
     return "X"
   else
     return "O"
