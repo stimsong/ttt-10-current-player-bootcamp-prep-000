@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0
-  board.each |occupied| do
+  board.each do |occupied|
     if (occupied == "X" or occupied == "O")
       counter += 1
     end
